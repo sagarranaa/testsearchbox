@@ -1,0 +1,94 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.search-input {
+  padding: 12px 15px;
+  width: 70%;
+  border: 2px solid #ddd;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  font-size: 16px;
+  transition: border 0.3s;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+}
+
+.search-button {
+  padding: 12px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.table-container {
+  margin-bottom: 30px;
+}
+
+.table-container h3 {
+  text-align: left;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f1f7ff;
+}
+
+.empty-row {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+}
